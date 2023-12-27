@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://Rajanya:Manu1408@cluster0.0chgio9.mongodb.net/crud?retryWrites=true&w=majority";
+const uri = "YOUR_MONGO_DB_URI";
 const client = new MongoClient(uri);
 
 const dbName = "crud";
